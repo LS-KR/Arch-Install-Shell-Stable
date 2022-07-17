@@ -2,7 +2,7 @@
 # Arch-Install-Shell-Stable
 
 如你所見, 這是一組自動安裝Arch Linux的Shell腳本  
-如果在使用VMware或VirtualBox並且沒有用什麼奇奇怪怪的東西(例如NVMe硬盤)則大可以直接`bash ./Arch-Install-Stable.sh`進行安裝.  
+如果在使用VMware或VirtualBox並且沒有用什麼奇奇怪怪的東西(例如NVMe硬碟)則大可以直接`bash ./Arch-Install-Stable.sh`進行安裝.  
 
 如果您在嘗試在實體計算機或者在VM中啓用了一些不太常見的設置或者嘗試在某些奇奇怪怪的地方安裝, 請閱讀以下段落. 
 
