@@ -37,14 +37,5 @@ echo "passwd
 root
 root" | arch-chroot /mnt
 
-dmesg | grep -q 'EFI v'
-if [ $? -eq 0 ]; then
-    mount -t vfat /dev/sda1 /mnt/boot
-    echo "grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub_uefi" | arch-chroot /mnt
-else
-    echo "grub-install /dev/sda" | arch-chroot /mnt
-fi
-echo "grub-mkconfig -o /boot/grub/grub.cfg" | arch-chroot /mnt
-
 echo "Done!"
 echo "Your Password is \"root\"."
