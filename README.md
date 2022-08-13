@@ -98,6 +98,10 @@ Server = https://de.arch.mirror.kescher.at/$repo/os/$arch
 ```
 可以在文件頭插入鏡像源的網路鏈路, 例如`https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch`  
 
+<!--
+不会真的有人来看源文档吧
+-->
+
 ## 安裝
 
 在確認掛載的分區無誤後, 可以運行以下命令進行安裝:
